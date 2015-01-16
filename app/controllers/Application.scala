@@ -2,6 +2,7 @@ package controllers
 
 import play.api._
 import play.api.mvc._
+import play.api.libs.iteratee.Enumerator
 
 object Application extends Controller {
 
@@ -14,8 +15,7 @@ object Application extends Controller {
   }
 
   def resume = Action {
-    //download resume
-    Ok(views.html.index())
+    Ok.sendFile(new java.io.File("./public/resume.pdf"))
   }
 
   def skills = Action {
