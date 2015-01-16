@@ -84,6 +84,6 @@
             raycaster.setFromCamera(mouse, camera);
 
             var intersects = raycaster.intersectObjects([cube]);
-            console.log(intersects[0].face.link)
+            window.location = intersects[0].face.link;
     }
 
