@@ -1,6 +1,10 @@
 @()
 
-@main() {
-
-
+@scripts = {
+    <script src="@routes.Assets.at("javascripts/three.js")"></script>
+    <script src="@routes.Assets.at("javascripts/about.js")"></script>
 }
+
+@main(scripts = scripts) {
+}
+

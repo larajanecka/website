@@ -1,6 +1,12 @@
 @()
 
-@main() {
+@scripts = {
+    <script src="@routes.Assets.at("javascripts/three.js")"></script>
+    <script src="@routes.Assets.at("javascripts/Projector.js")"></script>
+    <script src="@routes.Assets.at("javascripts/CanvasRenderer.js")"></script>
+    <script src="@routes.Assets.at("javascripts/contact.js")"></script>
+}
 
-
+@main(scripts = scripts) {
+    <div id="info">Click to navigate. Arrow keys or wasd to move.</div>
 }

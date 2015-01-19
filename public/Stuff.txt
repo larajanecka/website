@@ -1,0 +1,10 @@
+Future Additions
+
+Fix pixelation of canvases
+Dynamically created resume
+Interactive skills
+Bubble facts
+Add more contacts
+Color validation on cube
+Make different site for mobile
+Fix Images

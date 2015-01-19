@@ -1,0 +1,15 @@
+@(name: String)
+
+    <div id="@name" class="column-group vertical-space employer">
+        <div class="all-30">
+            <img src="@Messages(name + ".pic")">
+        </div>
+        <div class="all-70">
+            <p><b>Employer:</b> @Messages(name + ".employer")</p>
+            <p><b>Position:</b> @Messages(name + ".position")</p>
+            <p><b>Time:</b> @Messages(name + ".time")</p>
+            <p><b>Description:</b> @Messages(name + ".description")</p>
+            <p><b>Tools Used:</b> @Messages(name + ".tools")</p>
+        </div>
+    </div>
+

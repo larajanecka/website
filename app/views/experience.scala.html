@@ -1,6 +1,11 @@
 @()
 
-@main() {
+@scripts = {
+    <script src="@routes.Assets.at("javascripts/experience.js")"></script>
+}
 
-
+@main(scripts = scripts) {
+    @employer("auvik")
+    @employer("masstech")
+    @employer("tims")
 }

@@ -34,4 +34,8 @@ object Application extends Controller {
     Ok(views.html.contact())
   }
 
+  def thanks = Action {
+    Ok(views.html.thanks())
+  }
+
 }

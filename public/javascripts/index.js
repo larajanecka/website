@@ -2,7 +2,9 @@
 
         var camera, scene, renderer, controls, raycaster, mouse;
 
-        var links = ['/about', '/resume', '/skills', '/soft', '/experience', '/contact'];
+        //Need to abstract this into a constants file
+        // Add preset colors
+        var links = ['/about', '/resume', '/skills', '/thanks', '/experience', '/contact'];
         var text = [{
                 title: "About",
                 description: "A brief description of me"
@@ -11,10 +13,10 @@
                 description: "Download my resume"
             },{
                 title: "Skills",
-                description: "An description of what I can do"
+                description: "A description of what I can do"
             },{
-                title: "Soft Skills",
-                description: "A description of what I can do away from a computer"
+                title: "Thanks",
+                description: "Credit to projects used on this site"
             },{
                 title: "Experience",
                 description: "A description of what I have done"
@@ -73,7 +75,7 @@
             scene.add( cube );
 
 
-            document.addEventListener('dblclick', onDocumentClick)
+            $("canvas").dblclick(onDocumentClick)
             window.addEventListener('resize', onWindowResize)
 
         }
@@ -105,6 +107,9 @@
             raycaster.setFromCamera(mouse, camera);
 
             var intersects = raycaster.intersectObjects([cube]);
+            if(intersects.length == 0) {
+                return;
+            }
             window.location = intersects[0].face.link;
     }
 

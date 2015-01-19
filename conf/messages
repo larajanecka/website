@@ -1,1 +1,22 @@
 test=test
+
+auvik.pic=/assets/images/auvik.png
+auvik.employer=Auvik
+auvik.position=Software Developer
+auvik.time=Two co-op terms
+auvik.description=A few months building a application to mimic a device on the network as seen by SNMP polling. Most time spent working on the Auvik application's user interface.
+auvik.tools=Git/Bitbucked for version control, Jira for agile development management, Play framework with Scala back end, Underscore and Backbone/Backgrid for data management, Bootstrap for layout and styling, JQuery, Apache Batik for pdf generation based on svg data, various libraries for form validation, and many more.
+
+masstech.pic=/assets/images/masstech.png
+masstech.employer=Masstech
+masstech.position=Quality Assurance Analyst
+masstech.time=One co-op term
+masstech.description=Regression testing, automation, and test matrix development
+masstech.tools=Selemium for front end testing, in house testing software for back end testing, and excel for test documentation.
+
+tims.pic=/assets/images/tims.jpg
+tims.employer=Tim Hortons
+tims.position=Cashier, Dishwasher, and Sandwich maker
+tims.time=Four years
+tims.description=Making food and coffee and selling it to people
+tims.tools=Coffee pot, toaster, bread knife, and every variety of donut imaginable
