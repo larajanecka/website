@@ -4,9 +4,9 @@
 
 # Home page
 GET     /                           controllers.Application.index
-GET     /about                      controllers.Application.about
+#GET     /about                      controllers.Application.about
 GET     /resume                     controllers.Application.resume
-#GET     /skills                     controllers.Application.skills
+GET     /skills                     controllers.Application.skills
 #GET     /soft                       controllers.Application.soft
 GET     /experience                 controllers.Application.experience
 GET     /contact                    controllers.Application.contact

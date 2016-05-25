@@ -1,0 +1,42 @@
+{
+  "name": "skills",
+  "children": [
+    {
+      "name": "JavaScript",
+      "size": 100,
+      "children": [
+        {
+          "name": "JavaScript",
+          "size": 100
+        },
+        {
+          "name": "Angular",
+          "size": 100
+        },
+        {
+          "name": "Backbone",
+          "size": 100
+        }
+      ]
+    },
+    {
+      "name": "HTML",
+      "size": 100,
+      "text": "Basically every web page I've ever made has been HTML or HTML templates within another language. "
+    },
+    {
+      "name": "CSS",
+      "size": 100,
+      "children": [
+        {
+          "name": "CSS",
+          "size": 100
+        },
+        {
+          "name": "LESS",
+          "size": 100
+        }
+      ]
+    }
+  ]
+}
