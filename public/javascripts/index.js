@@ -119,19 +119,19 @@
         var bitmap = document.createElement('canvas');
         var g = bitmap.getContext('2d');
 
-        bitmap.width = 200;
-        bitmap.height = 200;
+        bitmap.width = 500;
+        bitmap.height = 500;
 
         g.fillStyle = hex;
-        g.fillRect(0,0,200,200);
+        g.fillRect(0,0,500,500);
 
-        g.font = 'Bold 20px Arial';
+        g.font = 'Bold 50px Arial';
         g.fillStyle = 'white';
         g.textAlign = 'center'
-        g.fillText(text[index].title, 100, 100);
+        g.fillText(text[index].title, 250, 225);
 
-        g.font = 'Bold 10px Arial';
-        g.fillText(text[index].description, 100, 120);
+        g.font = 'Bold 25px Arial';
+        g.fillText(text[index].description, 250, 270);
 
         var texture = new THREE.Texture(bitmap)
         texture.needsUpdate = true;
