@@ -13,7 +13,7 @@ var expand = function(n) {
         .attr("transform", "translate(" + n.x + "," + n.y + ")scale(0.001,0.001)");
 
     node.transition().duration(500).delay(500)
-        .attr("transform", "translate(" + diameter/2 + "," + diameter/2 + ")scale(2,2)");
+        .attr("transform", "translate(" + diameter/2 + "," + diameter/2 + ")scale(3,3)");
 
     node.selectAll("image").transition().duration(500).delay(500)
         .style("opacity", 0);

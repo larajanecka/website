@@ -7,22 +7,25 @@
       "children": [
         {
           "name": "JavaScript",
-          "size": 100
+          "size": 100,
+          "text": "Geeze, what to say about JavaScript ... I suppose Stockholm Syndrome might be the best description. While it is my go to language it still never ceases to trip me up. When this is not this and [] + {} != {} + [] it takes some creative debugging to get what you want. Still I'd like to think I've got a decent handle on its little nuances."
         },
         {
           "name": "Angular",
-          "size": 100
+          "size": 100,
+          "text": "I was introduced to the tentacle monster that is Angular at Extreme Networks. To this day two way binding still completely blows my mind (a broken $digest loop is a very sad day indeed). While I can build and debug most projects in Angular I'm still finding crazy cool features."
         },
         {
           "name": "Backbone",
-          "size": 100
+          "size": 100,
+          "text": "Backbone (and the accompanying backgrid) is my default big data management framework. It was my first experience with structured JavaScript and boy does it do its job well. I may have a small crush on Backbone and would love an excuse to work with it again."
         }
       ]
     },
     {
       "name": "HTML",
       "size": 100,
-      "text": "Basically every web page I've ever made has been HTML or HTML templates within another language. "
+      "text": "HTML is the basis of almost every website. Working at Auvik and Extreme Networks, and even developing this cite required creating and manipulating HTML. While some googling may be required for the more esoteric tags, trust me, I got this."
     },
     {
       "name": "CSS",
